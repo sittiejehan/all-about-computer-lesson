@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Signika+Negative:wght@400;500;600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color: #60d4d4;
+    --text-color: #2c2c29;
+}
+html {
+font-size: 15px;
+}
+header{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    font-family: Inter, sans-serif;
+    background-color: rgb(177, 177, 177);
+    color: rgb(7, 6, 6);
+}
+img{
+    width: 150px;
+}
+a{
+    text-decoration: underline;
+    color: black;
+}
+.container{
+    max-width: 1000px;
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    padding: 5rem;
+    background: #f0f0f0;
+    gap: 4rem;
+}
+ul{
+    margin-left: 4rem;
+    margin-top: 25px;
+}
+hr{
+    padding: 2px;
+    background-color: rgb(116, 145, 240);
+}
+.certify{
+    font-style: italic;
+    margin-left: 90px;
+}
+
+h2{
+    font: weight 700px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
